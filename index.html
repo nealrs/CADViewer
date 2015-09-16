@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>CAD viewer</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="info">
+
+			<!--Credits: <br>
+			<a href="http://threejs.org" target="_blank">three.js</a><br>
+			<a href="http://threejs.org/examples/#webgl_loader_stl">STL / CAD Loader demo</a><br>
+			<a href="http://www.thingiverse.com/thing:947423">FingerWrench model</a><br>
+			tracking.js <a href="http://trackingjs.com/examples/color_fish_tank.html">color</a> demos</a>-->
+			<!--<input id="STLfile" type="file" style="visibility:hidden" />-->
+		</div>
+		<video id="video" width="320" height="240" preload autoplay loop muted></video>
+  	<canvas id="canvas" width="320" height="240"></canvas>
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/dat.gui.min.js"></script>
+		<script src="js/three.min.js"></script>
+		<script src="js/tracking-min.js"></script>
+		<script src="js/face-min.js"></script>
+		<script src="js/STLLoader.js"></script>
+		<script src="js/detector.js"></script>
+		<script src="js/libs/stats.min.js"></script>
+
+		<script src="js/main.js"></script>
+	</body>
+</html>

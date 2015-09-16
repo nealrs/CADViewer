@@ -1,0 +1,49 @@
+body {
+  font-family: Monospace;
+  background-color: #000000;
+  margin: 0px;
+  overflow: hidden;
+}
+
+#video, #canvas {
+  bottom: 0;
+  position: absolute;
+  z-index: 100;
+}
+
+#info {
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  display:block;
+
+}
+
+#info2 {
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  display:block;
+
+}
+
+#viewport {
+  padding-top: 40px;
+}
+
+a { color: skyblue }
+.button { background:#999; color:#eee; padding:0.2em 0.5em; cursor:pointer }
+.highlight { background:orange; color:#fff; }
+
+span {
+  display: inline-block;
+  width: 60px;
+  float: left;
+  text-align: center;
+}
